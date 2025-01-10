@@ -20,19 +20,21 @@ button {
     background-color: #4CAF50;
     color: white;
     border: none;
+    align-self: center;
 }
 
 #messages {
-    width: 45%;
-    min-height: 55%;
+    width: 40%;
+    justify-content: left;
 }
 
 #name {
     width: 25%;
     height: 15%;
+    justify-content: right;
 }
 
 #send {
-    width: 45%;
-    min-height: 45%;
+    width: 40%;
+    justify-content: right;
 }
