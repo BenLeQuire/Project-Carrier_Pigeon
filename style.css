@@ -20,21 +20,30 @@ button {
     background-color: #4CAF50;
     color: white;
     border: none;
-    align-self: center;
+    float: center;
 }
 
 #messages {
     width: 40%;
-    justify-content: left;
+    float: left;
 }
 
 #name {
     width: 25%;
     height: 15%;
-    justify-content: right;
+    float: right;
 }
 
 #send {
     width: 40%;
-    justify-content: right;
+    float: right;
+}
+
+#buttondiv{
+    bottom: 0;
+}
+
+#leftdiv{
+    margin-left: 15%;
+    margin-right: 25%;
 }
