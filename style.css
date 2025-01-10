@@ -1,49 +1,48 @@
 
 body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
 }
 
 .container {
-    margin-top: 50px;
+  margin: 50px auto;
+  max-width: 1200px;
+  overflow: auto;
 }
 
-input, button {
-    margin: 10px;
-    padding: 10px;
-    font-size: 16px;
+input, button, textarea {
+  margin: 10px;
+  padding: 10px;
+  font-size: 16px;
 }
 
 button {
-    cursor: pointer;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    float: center;
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
 }
 
 #messages {
-    width: 40%;
-    float: left;
+  width: 40%;
+  float: left;
 }
 
 #name {
-    width: 25%;
-    height: 15%;
-    float: right;
+  width: 25%;
+  float: right;
 }
 
 #send {
-    width: 40%;
-    float: right;
+  width: 40%;
+  float: right;
 }
 
-#buttondiv{
-    bottom: 0;
-}
 
-#leftdiv{
-    margin-left: 15%;
-    margin-right: 25%;
+#leftdiv {
+  margin-left: 15%;
+  margin-right: 25%;
 }
