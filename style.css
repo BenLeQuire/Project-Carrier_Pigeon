@@ -22,7 +22,7 @@ button {
     border: none;
 }
 
-#Messages {
-    margin-top: 20px;
-    color: red;
+#name {
+    width: 10%;
+    height: 5%;
 }
