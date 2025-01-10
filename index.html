@@ -1,21 +1,28 @@
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8" />
     <h1 class="title">Project Carrier_Pigeon</h1>
     <link rel="stylesheet" type="text/css" href="style.css">
     <script src="script.js"></script>
 </head>
 <body>
+    <div id="leftdiv">
 <label for="messages"> Chat: </label>
 <textarea id="messages" name = "messages" readonly rows = 45></textarea>
+    </div>
 <br />
+<div id="rightdiv">
 <label for ="name"> Name: </label>
 <input type="text" id="name" name="name">
 <br />
 <label for="send"> Message: </label>
 <textarea id="send" name="send" rows = 25></textarea>
 <br />
+</div>
+<div id="buttondiv">
 <button type="button">Send Message</button>
+</div>
 </body>
 </html>
