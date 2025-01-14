@@ -3,7 +3,22 @@ function send_to_server(){
     var name = document.getElementById("name").value;
     var message = document.getElementById("send").value;
     var chat = document.getElementById("messages");
-    console.log(chat)
-    chat.value += name +" "+"--->"+" "+ message + "\n";
+    if (message.length < 1 && name.length <1)
+    {
+        alert("please type a name and a message");
+    }
+    else if (name.length < 1)
+    {
+        alert("please type a name");
+    }
+    else if (message.length < 1)
+    {
+        alert("please type a message");
+    }
+    else{
+        chat.value += name +" "+"--->"+" "+ message + "\n";
+        message.value = "";
+    }
+
 
 }
