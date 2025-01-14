@@ -17,7 +17,7 @@ function send_to_server(){
     }
     else{
         chat.value += name +" "+"--->"+" "+ message + "\n";
-        message.value = "";
+        document.getElementById("send").value = "";
         chat.scrollTop = chat.scrollHeight;
     }
 
