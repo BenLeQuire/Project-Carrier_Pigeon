@@ -4,6 +4,6 @@ function send_to_server(){
     var message = document.getElementById("send").value;
     const texarea = document.getElementById("messages").value;
     texarea.value += (name+" "+"--->"+" "+message);
-    console.log(name);
+    console.log("\n"+ name);
     console.log("\n" + message);
 }
