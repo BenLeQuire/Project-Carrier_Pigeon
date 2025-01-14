@@ -18,6 +18,7 @@ function send_to_server(){
     else{
         chat.value += name +" "+"--->"+" "+ message + "\n";
         message.value = "";
+        chat.scrollTop = chat.scrollHeight;
     }
 
 
