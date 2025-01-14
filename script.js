@@ -3,7 +3,8 @@ function send_to_server(){
     var name = document.getElementById("name").value;
     var message = document.getElementById("send").value;
     const texarea = document.getElementById("messages").value;
-    texarea.value += (name+" "+"--->"+" "+message);
-    console.log("\n"+ name);
-    console.log("\n" + message);
+    console.log(texarea)
+    //texarea.value += (name+" "+"--->"+" "+message);
+    //console.log("\n"+ name);
+    //console.log("\n" + message);
 }
