@@ -1,0 +1,21 @@
+{
+  "name": "projectrio",
+  "version": "1.0.0",
+  "description": "Carrier Pigeon is a WIP messaging service. For now, it is all LAN, but I am going to set up a server and a backend to allow communication between devices across different networks",
+  "type": "module",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BenLeQuire/Project-Carrier_Pigeon.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BenLeQuire/Project-Carrier_Pigeon/issues"
+  },
+  "homepage": "https://github.com/BenLeQuire/Project-Carrier_Pigeon#readme"
+}
