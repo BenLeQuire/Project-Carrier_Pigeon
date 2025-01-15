@@ -1,5 +1,4 @@
-import "webrtc";
-(function send(){
+function sendLAN(){
     //console.log("this worked!!!")
     var name = document.getElementById("name").value;
     var message = document.getElementById("send").value;
@@ -24,4 +23,4 @@ import "webrtc";
 
 
 }
-)
+import "webrtc";
