@@ -1,5 +1,5 @@
 import "webrtc";
-function send(){
+(function send(){
     //console.log("this worked!!!")
     var name = document.getElementById("name").value;
     var message = document.getElementById("send").value;
@@ -24,3 +24,4 @@ function send(){
 
 
 }
+)
