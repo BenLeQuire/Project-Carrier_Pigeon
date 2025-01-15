@@ -4,6 +4,9 @@
   "description": "Carrier Pigeon is a WIP messaging service. For now, it is all LAN, but I am going to set up a server and a backend to allow communication between devices across different networks",
   "type": "module",
   "main": "script.js",
+  "dependencies": {
+    "webrtc":"^1.14.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
