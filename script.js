@@ -1,4 +1,4 @@
-//import "webrtc";
+import "webrtc";
 function send(){
     //console.log("this worked!!!")
     var name = document.getElementById("name").value;
