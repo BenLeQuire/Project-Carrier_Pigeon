@@ -23,4 +23,3 @@ function sendLAN(){
 
 
 }
-import "webrtc";
