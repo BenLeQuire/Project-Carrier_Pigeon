@@ -1,8 +1,8 @@
 function sendLAN(){
     //console.log("this worked!!!")
-    var name = document.getElementById("name").value;
-    var message = document.getElementById("send").value;
-    var chat = document.getElementById("messages");
+    let name = document.getElementById("name").value;
+    let message = document.getElementById("send").value;
+    let chat = document.getElementById("messages");
     if (message.length < 1 && name.length <1)
     {
         alert("please type a name and a message");
@@ -20,6 +20,9 @@ function sendLAN(){
         document.getElementById("send").value = "";
         chat.scrollTop = chat.scrollHeight;
     }
+
+
+
 
 
 }
