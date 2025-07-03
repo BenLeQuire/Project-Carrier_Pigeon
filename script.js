@@ -28,6 +28,6 @@ function sendLAN() {
 
 
 
-    //TODO | upload json data to json file
+    // TODO | upload json data to json file
 
 }
