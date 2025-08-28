@@ -6,7 +6,10 @@ user_name = "ben"
 
 @app.route('/')
 def hello():
-    return 'hello there' #render_template('hello.html', user_name=name)
+    return render_template (
+        "message.html",
+          
+    )
 
 if __name__ == '__main__':
     app.run()

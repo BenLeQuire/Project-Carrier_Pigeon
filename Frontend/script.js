@@ -1,3 +1,4 @@
+import 
 function sendLAN() {
     //console.log("this worked!!!")
     let name = document.getElementById("name").value;
@@ -31,3 +32,5 @@ function sendLAN() {
     // TODO | upload json data to json file
 
 }
+
+function
