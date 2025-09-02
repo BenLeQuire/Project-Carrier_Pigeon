@@ -32,7 +32,6 @@ function callApp() {
         .then(response => response.text())
         .then(data => {
             console.log(data)
-            alert(data)
         })
     
     

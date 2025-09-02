@@ -12,7 +12,7 @@ socketio = SocketIO(app)
 @app.route('/')
 @app.route('/index')
 def index():
-    return render_template('index.html')
+    return render_template('base.html')
 @app.route('/callApp', methods=['POST'])
 def callApp():
     # Get the JSON data sent by fetch()
