@@ -17,14 +17,6 @@ function callApp() {
         document.getElementById("send").value = "";
         chat.scrollTop = chat.scrollHeight;
     
-        let msg_data = {
-        name: name,
-        message: message,
-        }
-
-        let Json_data = JSON.stringify(msg_data);
-
-        console.log(Json_data);
 
         fetch('/callApp', {
             method: 'POST',
@@ -50,4 +42,3 @@ function callApp() {
 
 
 }
-
