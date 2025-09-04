@@ -1,6 +1,7 @@
 from telephone import app_called
 from flask import Flask, render_template, request
 from flask_socketio import SocketIO
+from flask_sqlalchemy import SQLAlchemy
 import cryptography
 import json
 
@@ -24,4 +25,5 @@ def callApp():
     #return str(msg_data)
 
 if __name__ == '__main__':
+    db = SQLAlchemy(app)
     socketio.run(app, ssl_context = 'adhoc')
