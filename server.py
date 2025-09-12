@@ -25,5 +25,5 @@ def callApp():
     #return str(msg_data)
 
 if __name__ == '__main__':
-    db = SQLAlchemy(app)
+    #db = SQLAlchemy(app)
     socketio.run(app, ssl_context = 'adhoc')
