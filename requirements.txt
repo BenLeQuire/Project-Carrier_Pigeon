@@ -1,4 +1,4 @@
-﻿bidict==0.23.1
+bidict==0.23.1
 blinker==1.9.0
 cffi==1.17.1
 click==8.2.1
@@ -14,9 +14,12 @@ Jinja2==3.1.6
 MarkupSafe==3.0.2
 psycopg2-binary==2.9.10
 pycparser==2.22
+python-dotenv==1.1.1
 python-engineio==4.12.2
 python-socketio==5.13.0
+setuptools==3.3
 simple-websocket==1.1.0
+socketio==0.2.1
 SQLAlchemy==2.0.43
 typing_extensions==4.15.0
 Werkzeug==3.1.3
