@@ -4,8 +4,13 @@ from flask_socketio import SocketIO
 from flask_sqlalchemy import SQLAlchemy
 import cryptography
 import json
+from dotenv import load_dotenv
+import os
 
 app = Flask(__name__)
+
+db_url = os.getenv("DB_URL")
+
 app.config['SECRET_KEY'] = 'General_Kenobi'
 socketio = SocketIO(app)
 
