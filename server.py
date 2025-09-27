@@ -6,11 +6,12 @@ import json
 from dotenv import load_dotenv
 import os
 
-app = Flask(__name__)
-
 db_url = os.getenv("DB_URL")
 
+app = Flask(__name__)
+
 app.config['SECRET_KEY'] = 'General_Kenobi'
+app.config['SQLALCHEMY_DATABASE_URL'] = db_url
 socketio = SocketIO(app)
 
 
